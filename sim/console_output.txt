@@ -1,0 +1,21 @@
+SPI Master 4-Mode Verification — Simulation Results
+
+=== MODE 0: CPOL=0, CPHA=0 ===
+TX (Master->Slave): a5 | RX at Slave: a5
+TX (Slave->Master): 3c | RX at Master: 3c
+RESULT: PASS
+
+=== MODE 1: CPOL=0, CPHA=1 ===
+TX (Master->Slave): a5 | RX at Slave: a5
+TX (Slave->Master): 3c | RX at Master: 3c
+RESULT: PASS
+
+=== MODE 2: CPOL=1, CPHA=0 ===
+TX (Master->Slave): a5 | RX at Slave: a5
+TX (Slave->Master): 3c | RX at Master: 3c
+RESULT: PASS
+
+=== MODE 3: CPOL=1, CPHA=1 ===
+TX (Master->Slave): a5 | RX at Slave: a5
+TX (Slave->Master): 3c | RX at Master: 3c
+RESULT: PASS
